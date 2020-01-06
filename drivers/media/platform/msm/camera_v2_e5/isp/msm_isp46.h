@@ -1,4 +1,4 @@
-/* Copyright (c) 2009-2013, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -8,12 +8,10 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- *
  */
-#ifndef __LINUX_MSM_CAMERA_H
-#define __LINUX_MSM_CAMERA_H
 
-#include <linux/cdev.h>
-#include "../../include/uapi/media/msm_camera.h"
+#ifndef __MSM_ISP46_H__
+#define __MSM_ISP46_H__
 
-#endif /* __LINUX_MSM_CAMERA_H */
+extern struct msm_vfe_hardware_info vfe46_hw_info;
+#endif /* __MSM_ISP46_H__ */
